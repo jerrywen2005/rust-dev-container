@@ -1,0 +1,12 @@
+{
+  "name": "dev container for rust. HELLO COMP423",
+  "image": "mcr.microsoft.com/devcontainers/rust:1-1-bullseye",
+  "postCreateCommand": "rustup update && rustc --version",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer"
+      ]
+    }
+  }
+}
